@@ -1,0 +1,6 @@
+framework module WGDictionaryTool {
+  umbrella header "WGDictionaryTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

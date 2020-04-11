@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - WGDictionaryTool (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - WGDictionaryTool (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  WGDictionaryTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  WGDictionaryTool: ec4767f106fe2129fce5eb277436f476e30b0186
+
+PODFILE CHECKSUM: 2a1758d0784115adea5a754f6904147db5604af2
+
+COCOAPODS: 1.9.1
